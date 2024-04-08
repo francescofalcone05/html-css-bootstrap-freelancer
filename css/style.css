@@ -30,8 +30,20 @@ hr{
 
 /* sezione 2 */
 
-.portfolio hr{
+.portfolio-sec hr{
     color: black;
+}
+
+
+/* sezione 3 */
+
+.about-sec{
+    background-color: rgb(81, 148, 81);
+    color: white;  
+}
+
+.about-sec hr {
+    width: 70%;
 }
 
 /************* FOOTER *************/
