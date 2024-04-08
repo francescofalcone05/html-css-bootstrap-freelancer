@@ -48,7 +48,32 @@ hr{
 
 /************* FOOTER *************/
 
+/* upper footer */
 
+.up-footer-sec{
+    background-color: rgba(10, 10, 139, 0.603);
+    color: white;
+}
+
+.social-icons>.fa-brands{
+    padding: 0.8rem;
+    margin: 0 0.5rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.up-footer-sec a{
+    color: rgb(16, 75, 16);
+    text-decoration: none;
+}
+
+/* lower footer */
+.low-footer-sec{
+    background-color: rgba(7, 7, 90, 0.623);
+    color: white;
+}
 
 
 
