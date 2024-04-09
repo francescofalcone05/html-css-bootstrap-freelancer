@@ -5,6 +5,7 @@ hr{
     border: 5px solid white;
     margin: 0.5rem auto;
     border-radius: 10px;
+    opacity: unset;
 }
 
 
@@ -12,10 +13,16 @@ hr{
 .nav-bar{
     background-color: rgb(18, 27, 68);
     color: white;
-    font-size: 1rem;
 }
 
+.left-nav strong{
+    white-space: nowrap;
+}
 
+.right-nav span{
+    font-size: 0.7rem;
+    cursor: pointer;
+}
 
 
 /************* MAIN *************/
@@ -52,6 +59,24 @@ hr{
     width: 70%;
 }
 
+.contact-sec .input-group>input{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+
+}
+
+.contact-sec .input-group>textarea{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    height: 10rem;
+}
+
+.contact-sec button{
+    margin-left: 2rem;
+}
+
 /************* FOOTER *************/
 
 /* upper footer */
@@ -62,7 +87,7 @@ hr{
 }
 
 .social-icons>.fa-brands{
-    padding: 0.8rem;
+    padding: 1rem;
     margin: 0 0.5rem;
     border: 1px solid white;
     border-radius: 50%;
